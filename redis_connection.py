@@ -3,9 +3,9 @@
 import redis
 
 def get_redis_connection():
-    redis_host = ''
-    redis_port = 
-    redis_password = ''  # If your Redis instance has a password, provide it here
+    redis_host = 'redis-13158.c10.us-east-1-2.ec2.cloud.redislabs.com'
+    redis_port = 13158
+    redis_password = '3JrZyJpJxxTT1Cu8NxIe6JPoibu8ZqwZ'  # If your Redis instance has a password, provide it here
 
     try:
         # Create a connection to the Redis server
